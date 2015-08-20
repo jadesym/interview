@@ -1,0 +1,5 @@
+shortest sum of squares, input: n
+combine intervals
+mergesort with doubly linked list
+sum of list of lists
+KMP
