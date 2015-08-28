@@ -57,12 +57,17 @@ def exists(root, val):
 	else:
 		return "Does Not Exist"
 
-def get_array_of_vals(root, lower, upper):
-	
-
+import random
+def randomArray(low, high, numNums):
+	array = []
+	for num in range(numNums):
+		array.append(random.randint(low, high))
+	return array
 
 root = Node(3)
-insert_array_into_tree(root, [7, 1, 5])
+numArray = randomArray(1, 1000, 30)
+print("Unsorted: ", numArray)
+insert_array_into_tree(root, numArray)
 print("Ascending Order:")
 print_ascending(root)
 print("Pre Order:")
