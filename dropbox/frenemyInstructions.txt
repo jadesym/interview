@@ -1,0 +1,40 @@
+Given a matrix of friend/enemy relationships between a group of people, your goal is to figure out if two individuals have a particular relationship chain ("friend of a friend", "enemy of a friend of an enemy", etc)
+ 
+For example, consider when you have the following matrix of relationships, where F means "friend of" and E means "enemy of", and an entry at (x,y) is the relationship between individual x and individual y:
+ 
+-FE
+F-F
+EF-
+ 
+In this example, individual 0 and individual 2 have a relationship chain E (i.e. 0 <--> 2), but they also have the relationship chains FF (0 <--> 1 <--> 2) and EFFE (0 <--> 2 <--> 1 <--> 0 <--> 2; that is, cycles of relationships are possible).
+ 
+These relationships have the following properties:
+Being friends and enemies are symmetric, so if person A is friends with person B, that implies that person B is friends with person A, and similarly with enemies
+A person cannot have a relationship to him/herself, and so no relationship chain will include 0 <--> 0
+The only valid relationships are F, E, or - (friend, enemy, or neither).
+ 
+Given a matrix of size n x n, the indices for two individuals, and a relationship chain as a string, return 1 if this relationship chain exists between the two people, and 0 otherwise.
+ 
+Inputs are of the following form:
+ 
+number of people
+relationships matrix
+index of first person (the first row corresponds to an index of 0)
+index of second person (the first column corresponds to an index of 0)
+relationship chain to test
+ 
+Continuing the above example, the input
+ 
+3
+-FE
+F-F
+EF-
+0
+2
+FF
+ 
+Should give the output
+ 
+1
+ 
+ because relationships[0][1] == "F" and relationships[1][2] == "F" 
