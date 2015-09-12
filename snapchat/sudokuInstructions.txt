@@ -1,0 +1,48 @@
+Overview
+A Sudoku puzzle is a grid of nine by nine squares or cells, that has been subdivided into nine sub-grids or "regions" of three by three cells. The objective of sudoku is to enter a digit from 1 through 9 in each cell, in such a way that:
+ 
+- Each horizontal row contains each digit exactly once
+- Each vertical column contains each digit exactly once
+- Each 3x3 subgrid or region contains each digit exactly once
+ 
+If you aren't familiar with Sudoku, you can learn more here: http://www.sudoku.name/rules/en
+The goal of this problem is to write a Sudoku verifier.  A verifier accepts a Sudoku grid and verifies whether the grid is a valid solution according to the rules above.
+ 
+Input Format:
+The 1st (and only) line contains 81 integers. The first 9 integers represent the 1st row, the next 9 integers represent the 2nd row, and so on. Each integer is guaranteed to be between 1 and 9, inclusive. For example, the input
+ 
+963174258178325649254689731821437596496852317735961824589713462317246985642598173
+ 
+represents the following Sudoku grid:
+ 
+9  6  3  1  7  4  2  5  8
+1  7  8  3  2  5  6  4  9
+2  5  4  6  8  9  7  3  1
+8  2  1  4  3  7  5  9  6
+4  9  6  8  5  2  3  1  7
+7  3  5  9  6  1  8  2  4
+5  8  9  7  1  3  4  6  2
+3  1  7  2  4  6  9  8  5
+6  4  2  5  9  8  1  7  3
+ 
+Output Format:
+1 if the given input is a valid Sudoku solution, 0 otherwise
+ 
+Sample Input #00:
+963174258178325649254689731821437596496852317735961824589713462317246985642598173
+ 
+Sample Output #00:
+1
+ 
+Explanation:
+The input is a valid Sudoku solution
+ 
+Sample Input #01:
+163174258178325649254689731821437596496852317735961824589713462317246985642598173
+ 
+Sample Output #01:
+0
+ 
+Explanation:
+The first column contains two 1s, but no 9.
+ 
