@@ -1,0 +1,33 @@
+1.
+A+B+C <= X
+Input Array (Do O(n) solution)
+
+2. Randomly select k winners from a pool of n in O(k) time complexity (Duplicate errors must be solved)
+Solve this in the case that:
+Large amount of users
+Don't know when all possible winners are found yet
+Entries come one at a time
+Fairness still occurs
+Winners can be given right when the end of at 24 hour time period is announced
+
+3. 
+Sum of 2D Array at index
+a. fast lookup/slow set
+b. slow lookup/fast set
+c. Speed up set/changing array index + slow down lookup
+b. 
+
+4.
+a. how would you scale twitter for a lot of users
+b. 2D array of integers 1 - n^2 randomly placed
+Find longest sequence of numbers that is connected (numbers are connected if adjacent vertically or horizontally)
+c. Assembly
+STOR A ... R -> A
+STOR B ... R -> B
+SUB A ... R-A -> R
+SUB B ... R-B -> R 
+
+5. TWO
+a. friend of friends
+	- inserted sort, O(n) iteration through each friend
+b. square root of a number to a good degree of significance (iterative)
