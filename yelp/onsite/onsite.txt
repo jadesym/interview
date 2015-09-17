@@ -1,0 +1,12 @@
+1. Shortest path (2D Array)
+Retrace path 2D Array
+
+2. How would you fix Yelp?
+Sum two integers in string form
+Account for overflow
+Throw into an array of digits to calculate
+
+3. Longest substring without duplicates
+Hash of last character, keep track of substring
+
+4. Dependency Tree with no redependency
