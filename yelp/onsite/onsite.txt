@@ -1,12 +1,19 @@
-1. Shortest path (2D Array)
-Retrace path 2D Array
+1.Shortest path
+Retrace path 2d array
 
-2. How would you fix Yelp?
+If recursive what is time complexity
+Spam check
+
+2. Fix yelp?
+
 Sum two integers in string form
 Account for overflow
-Throw into an array of digits to calculate
+Throw into an array of digits 
 
 3. Longest substring without duplicates
 Hash of last character, keep track of substring
 
-4. Dependency Tree with no redependency
+4. Dependency tree with no redependency
+O(V+E)
+get correct order
+double check order back

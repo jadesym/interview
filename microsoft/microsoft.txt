@@ -1,0 +1,28 @@
+1.
+Self referencing number
+Copying linkedlist with random and next pointer
+
+Random could go to items not in linkedlist
+Next and random could point to self or have cycles
+
+2. Csv file
+Any item in a line could have quotes
+Commas require surrounding quotes
+
+Escape quote is quad quote
+
+3. Stock prices, buy sell index for max profit
+One transaction
+Total profit from multiple transactions
+
+4. Stack with max value
+Push pop getMax O(1) complexity
+Max stack and a normal stack
+
+5. 
+Tree - left, right, next
+Next is snake like...
+
+Time complexity = 1 pass to set all next values correctly, already have left and right
+
+

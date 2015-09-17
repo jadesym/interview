@@ -1,0 +1,8 @@
+1- documents, word counter
+Tfidf=tf*idf
+Term frequency
+Idf= log( |D|/number of occurrences in document
+
+Find top three words tf idfs in a document
+2- find matches using randomization
+Shuffle initial array, secret santa
