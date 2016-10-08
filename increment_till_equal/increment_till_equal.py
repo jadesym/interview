@@ -1,3 +1,17 @@
+"""
+Given an array of integers, find the least number of steps to convert the
+array so that all integers in the array are equal.
+
+A step is defined as incrementing n - 1 elements of the array by 1. n is the
+number of elements in the array. The n - 1 elements that are incremented
+can differ each time.
+
+Two Solutions:
+O(n*log(n)) where n is the number of elements
+O(m) where m is the difference between the maximum and minimum value in the array
+* Note: Second Solution should be prefaced with how can we make it faster if
+we have a large array but the range of the values is not that large.
+"""
 
 test_cases = {
     (5, 6, 8, 8, 5): 7,
